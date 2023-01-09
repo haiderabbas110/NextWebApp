@@ -1,0 +1,70 @@
+.SideBarWrapper {
+    width: 15%;
+    // height: 100vh;
+    > div {
+        color: var(--light);
+        background: var(--gray-dark);
+    }
+
+    .SidebarNav {
+        ul {
+            li {
+                a {
+                    padding: 10px 25px;
+                    display: block;
+                    &:hover {
+                        background-color: var(--light);
+                        color: var(--gray);
+                    }
+
+                    svg {
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }
+        .ProfileNavList {
+            padding: 0;
+            li {
+                a {
+                    display: flex;
+                }
+                div {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .ProfileWrapper {
+        .ProfileDetailsArea {
+            display: flex;
+            padding: 20px;
+            background-color: #3e5871;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .ProfileImage {
+            img {
+                border-radius: 100%;
+                width: 40px;
+                height: 40px;
+            }
+        }
+        .ProfileDetails {
+            color: var(--light);
+            display: flex;
+            flex-direction: column;
+            margin-left: 8px;
+            .Designation {
+                margin-top: 5px;
+                display: flex;
+                align-items: flex-end;
+                cursor: pointer;
+                .icon {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

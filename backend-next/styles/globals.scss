@@ -1,0 +1,49 @@
+/**======================================================================
+=========================================================================
+Author: Haider Abbas
+Support: haider.abbas@genetechsolutions.com
+File: global.scss
+=========================================================================
+=================================================================================== */
+
+:root {
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #2c3e50;
+  --success: #2ecc71;
+  --info: #00acc1;
+  --warning: #f1c40f;
+  --danger: #e74c3c;
+  --light: #d0dcda;
+  --dark: #343a40;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #343a40;
+  font-size: 14px;
+}
+a{
+  color:var(--light);
+  text-decoration:none;
+}
+ul{
+  list-style: none;
+}
+.ContentPart{
+  display: flex;
+}
+h1{
+  color: #37474f;
+  font-size: 16px;
+  font-weight: 600;
+}
